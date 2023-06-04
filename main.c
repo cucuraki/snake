@@ -5,7 +5,6 @@
 int main() {
     int lvl;
     char play_again = 'y';
-    char tmp[30];
     while (play_again == 'y' || play_again == 'Y') {
         printf("Choose the lvl 1-10\n");
         scanf("%d", &lvl);
